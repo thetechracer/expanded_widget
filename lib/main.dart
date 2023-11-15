@@ -13,16 +13,17 @@ class MyApp extends StatelessWidget {
         home: Scaffold(
       appBar: AppBar(title: const Text('Expanded Widget')),
       body: Row(children: [
-        Expanded(child: Container(color: Colors.red, height: 200)),
         Expanded(
             child: Container(
-          color: Colors.amber,
-          height: 200,
+          color: Colors.deepPurple,
+        )),
+        Expanded(
+            child: Container(
+          color: Colors.red,
         )),
         Expanded(
           child: Container(
-            color: Colors.black12,
-            height: 200,
+            color: Colors.blue,
           ),
         ),
       ]),
